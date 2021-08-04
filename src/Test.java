@@ -20,6 +20,7 @@ public class Test {
 			System.out.print("Enter value y: ");
 			int y = Integer.parseInt(r.readLine());
 			System.out.println("x+y="+(x+y));
+			System.out.println("x+y="+(x*y));
 		} catch (NumberFormatException | IOException ex) {
 			System.out.println(ex.getMessage());
 		}
